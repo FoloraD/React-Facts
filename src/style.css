@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Inter, sans-serif;
     height: 100vh;
     background-color: #282D35 ;
 }
@@ -40,13 +40,17 @@ nav {
 
 main {
     padding: 57px 27px;
-    color: white
+    color: white;
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
 }
 
 .main--title {
     margin: 0;
-    font-size: 39px;
-    /*letter-spacing: -0.05em;*/
+    font-size: 39.06px;
+    letter-spacing: -0.05em
 }
 
 .main--facts {
